@@ -1,0 +1,121 @@
+header{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header p{
+    color: gray;
+    font-size: 20px;
+}
+
+
+.mers-logo img{
+    max-height: 40px;
+    margin-top: 10px;
+}
+
+body{
+    opacity: .7;
+    background-color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.one-eleven{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../resources/one-eleven.avif);
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    height: 700px;
+    color: azure;
+    font-size: 35px;
+}
+
+.one-eleven h3{
+    padding-left: 90px;
+    margin-top: 250px;
+    margin-right: 600px;
+}
+
+
+button{
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;   
+    margin-right: 600px;
+}
+
+button:hover{
+    background-color: rgb(0, 105, 179);
+    color: white;
+}
+
+.red-car{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../resources/red-car.avif);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: azure;
+    font-size: 35px;
+}
+
+.red-car h3{
+    padding-left: 90px;
+    margin-top: 250px;
+    margin-right: 600px;
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 450px;
+    margin: 100px 80px;
+}
+
+.container h3, h5{
+    margin: 100px 80px -80px;
+}
+
+.old-auto{
+    background-image: url(../resources/old-merc.avif);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    height: 700px;
+    color: azure;
+    font-size: 35px;
+}
+
+.old-auto h2{
+    margin-top: 80px;
+    margin-right: 600px;
+}
+
+.old-auto h5{
+    margin-top: 80px;
+    margin-right: 600px;
+}
